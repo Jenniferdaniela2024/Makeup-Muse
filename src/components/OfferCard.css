@@ -1,0 +1,45 @@
+.offer-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+  }
+  
+  .offer-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .offer-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .offer-price {
+    font-weight: bold;
+    color: #ff5722;
+  }
+  
+  .offer-discount {
+    color: #4caf50;
+  }
+  
+  .add-to-cart {
+    padding: 8px 12px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #f50057;
+  }
+  

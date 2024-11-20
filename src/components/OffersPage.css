@@ -1,0 +1,18 @@
+.offers-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .offers-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .offers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Diseño responsive */
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
