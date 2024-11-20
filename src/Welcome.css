@@ -1,0 +1,53 @@
+/* Estructura general */
+
+  
+  h1{
+    color:#E4B1F0;
+    text-align: center;
+  }
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #E4B1F0; /* Fondo de color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra ligera */
+    margin-left: 30px;
+    width: 89%;
+   
+  }
+  
+  .image-section {
+    flex: 1;
+    padding-right: 20px;  /* Espacio entre la imagen y el texto */
+  }
+  
+  .foto {
+    width: 100%;
+    max-width: 300px;  /* Ajuste el tamaño máximo de la imagen */
+    border-radius: 8px;
+    object-fit: cover;  /* Mantener la proporción de la imagen */
+    margin-left: -20px;
+  }
+  
+  .text-section {
+    flex: 2;
+  }
+  
+  .text-section h2 {
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .text-section p {
+    font-size: 1.2rem;
+    color: #101010;
+    margin-bottom: 15px;
+  }
+
+h4{
+    text-align: left;
+    color: white;
+} 

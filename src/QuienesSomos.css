@@ -1,0 +1,35 @@
+.Content_two{
+    display: flex;
+}
+
+.gif{
+ float: left;
+ margin-left: 10px;
+ margin-top: 12px;
+ margin-bottom: 21px;
+}
+
+
+.Descripcion {
+    border-style: groove;
+    margin-top: 12px;
+    height: 234px;
+    padding: 4px;
+    margin: 10px;
+    border-color: #E4B1F0;    
+}
+
+
+.texto{
+    color:#E4B1F0;
+    font-size: small;
+}
+    
+.texto1{
+    color: #0d0d0d;
+    font-size: small;
+} 
+.LOGOTIPO{
+    border-radius: 50px;
+    margin-left: 40%;
+} 

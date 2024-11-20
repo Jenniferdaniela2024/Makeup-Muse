@@ -1,0 +1,22 @@
+h2{
+    color: #E4B1F0;
+    margin-top: 20px;
+    text-align: center;
+ 
+}
+.products{
+    border-style: solid;
+    width: 30%;
+    display: inline-block;
+    margin: 5px;
+    margin-left: 18px;
+   
+}
+.productos{
+    width: 150px;
+    margin-left: 45px;
+}
+
+.titulo_destacado{
+    color: #E4B1F0;
+}

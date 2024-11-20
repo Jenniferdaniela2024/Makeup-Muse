@@ -1,0 +1,158 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.items-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.item-box {
+  background-color: #fff;
+  margin: 10px;
+  padding: 20px;
+  width: 150px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  text-align: center;
+}
+
+.item-price {
+  color: gray;
+}
+
+.item-add-button, .item-remove-button {
+  background-color: #5cb85c;
+  text-decoration: none;
+  border-style: none;
+  border-radius: 10px;
+  color: white;
+  width: 110px;
+  height: 40px;
+  text-align: center;
+  line-height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+
+}
+
+.item-remove-button {
+  background-color: #a41d01;
+  margin-top: 10px;
+  margin-bottom: 0%;
+  display: none; /*Para mantenerlo oculto hasta que se presione el boton de agregar*/
+}
+
+.cart-count {
+  background-color: #E4B1F0;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.nav-list {
+  margin-top: 15%;
+}
+
+h2 {
+  color: #E4B1F0;
+}
+
+.img-store {
+  border-radius: 10px;
+  width: 100%;
+  height: 36%;
+  margin-left: -2px;
+  transition: transform 0.3s ease;
+}
+
+.img-store:hover {
+  transform: scale(1.05); /* Aumenta un poco el tamaño de la imagen cuando se pasa el cursor */
+}
+.description {
+  position: absolute;  /* Posiciona la descripción sobre la imagen */
+  transform: translate(-50%, -50%);  /* Ajusta el centro exacto de la descripción */
+  background-color: #E4B1F0;
+  width: 200px;
+  color: white;
+  text-align: center;
+  opacity: 0;  /* La descripción está oculta por defecto */
+  visibility: hidden;  /* Oculta la descripción por defecto */
+  margin-left: 70px;
+  margin-top: -2.5%;
+  border-radius: 10px;
+  transition: opacity 0.3s ease, visibility 0.3s ease;  /* Transición suave para mostrar/ocultar */
+}
+
+/* Muestra la descripción al hacer hover sobre la imagen */
+.item-box:hover .description {
+  opacity: 1;
+  visibility: visible;
+
+}
+li{
+  margin-left: 35px;
+  list-style: none;
+}
+/* Lupa (zoom-lens) */
+.zoom-lens {
+  position: absolute;
+  border-radius: 50%;  /* Hace la lupa redonda */
+  border: 2px solid #fff;  /* Borde blanco para la lupa */
+  width: 80px; /* Tamaño de la lupa */
+  height: 80px;
+  pointer-events: none;  /* No permite interactuar con la lupa, solo es visual */
+  display: none;  /* La lupa está oculta por defecto */
+  background-repeat: no-repeat;
+  background-size: 200% 200%;  /* Escala la imagen dentro de la lupa */
+}
+
+/* Mostrar la lupa al hacer hover sobre el contenedor de la imagen */
+.item-box:hover .zoom-lens {
+  display: block;  /* Muestra la lupa */
+}
+
+.item-box:hover .zoom-lens {
+  background-image: url('producto.jpg');  /* Usa la misma imagen dentro de la lupa */
+}
+
+/* Mostrar la lupa y moverla con el mouse */
+.item-box:hover .zoom-lens {
+  display: block;
+  background-position: center; /* Centro de la imagen cuando se hace hover */
+}
+
+/* Opcional: Efecto de la descripción */
+.description {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: #E4B1F0;
+  width: 200px;
+  color: white;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  margin-left: 70px;
+  margin-top: -2.5%;
+  border-radius: 10px;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.item-box:hover .description {
+  opacity: 1;
+  visibility: visible;
+}
+
+li {
+  margin-left: 35px;
+  list-style: none;
+}

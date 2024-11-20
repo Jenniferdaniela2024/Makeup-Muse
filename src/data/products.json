@@ -1,0 +1,40 @@
+[
+    
+    {
+        "id": 5,
+        "name": "Labial Mate",
+        "price": "49,000",
+        "imgUrl": "public/labial.png",
+        "description": "Labial líquido SuperStay Vinyl Ink ",
+        "Marca": "Maybeline",
+        "Tono": "16"
+    },
+    {
+        "id": 6,
+        "name": "Labial líquido",
+        "price": "30,000",
+        "imgUrl": "public/kylie.jpeg",
+        "description": "Labial líquido presentación 3,0 ml",
+        "Marca": "Kylie Cometics",
+        "Tono": "Café (nude) Ginger"
+
+    },
+    {
+        "id": 7,
+        "name": "Contorno",
+        "price": "25,000",
+        "imgUrl": "public/contorno.jpeg",
+        "description": "Contorno ligero en crema",
+        "Marca": "Trendy",
+        "Tono": "03"
+    },
+    {
+        "id": 8,
+        "name": "Agua Micelar",
+        "price": "10,000",
+        "imgUrl": "public/aguamicelar.jpg",
+        "description": "Extracto de rosas y manzanilla en alta concentración",
+        "Marca": "Trendy",
+        "Tono": "Rosa"
+    }
+]

@@ -1,0 +1,34 @@
+header{
+    display: flex; /*Hace que los elemeetos se vean de una forma horizontal*/
+    justify-content:space-between ; /*ubica los elementos y space between para que uno este en la esquina*/
+    height: 100px;
+    background-color: #E4B1F0;
+    color: rgb(250, 250, 250);
+    align-items: center; /*centra los links*/
+    padding: 10px; /*para separar los elementos de su borde*/
+    width: 100%;
+    position: fixed;
+    margin-left: -20px;
+    margin-top: -1%;
+    z-index: 10;  /* Asegura que se quede por encima */
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    padding: 30px;
+ 
+}
+.logo{
+    width: 15%;
+    height: 120px;
+    padding: 2%;
+    margin: 0%;
+}
+
+
+a:hover{
+   background-color: #eec8f6;
+    border-radius: 20px; 
+}

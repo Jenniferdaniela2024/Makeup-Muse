@@ -1,0 +1,78 @@
+.footer {
+    height: 150px;
+    background-color: #E4B1F0;
+    color: rgb(250, 250, 250);
+    align-items: center; /*centra los links*/
+    padding: 10px; /*para separar los elementos de su borde*/
+    width: 106%;
+    margin-left: -7px;
+    margin-bottom: -34px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin-left: -70%;
+}
+
+hr {
+    color: black;
+}
+
+p {
+    color: rgb(17, 17, 17);
+    text-align: left;
+    font-size: small;
+}
+
+.email {
+    float: left;
+    border-style: dashed;
+    width: 20%; /* 80% del ancho del contenedor */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 12px;
+}
+
+.button_email {
+    background-color: black;
+    margin-left: -220px;
+    margin-top: 25px;
+    width: 12%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button_email:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/* Estilo cuando el formulario ha sido enviado */
+.setEnviado {
+    background-color: #92644F; /* Verde claro para "Enviado" */
+    color: white;
+}
+
+
+
+.content2 {
+    margin-left: 40%;
+    margin-top: -10%;
+}
+
+.farewell {
+    margin-left: 70%;
+    margin-top: -5%;
+    text-align: center;
+}
+
+.texto3 {
+    color: white;
+}
