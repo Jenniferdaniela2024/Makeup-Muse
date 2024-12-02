@@ -1,0 +1,8 @@
+.Farewell{
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+}
+.Farewell:hover{
+transform: scale(1.1); /* Aumenta el tamaño al pasar el cursor */
+}

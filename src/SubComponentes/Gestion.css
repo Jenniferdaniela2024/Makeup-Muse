@@ -1,0 +1,67 @@
+.btn-agregar{
+    background-color: #E4B1F0;
+    width: 100px;
+    font-size: small;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 0%;
+}
+h1{
+    color: #E4B1F0;
+    margin-top: 100px;
+
+}
+.tabla{
+    border-style: groove;
+    margin-left: 50px;
+    margin-bottom: 2%;
+}
+
+  table {
+    border-collapse: collapse;
+    width: 90%; /* Ajusta el ancho para tener márgenes laterales */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Para aplicar bordes redondeados */
+    
+  }
+  
+ .button{
+    background-color: #E4B1F0;
+ }
+  thead {
+    background-color: #E4B1F0;
+    text-align: left;
+    color: WHITE;
+  }
+  
+  /* Filas de la tabla */
+  th, td {
+    border: 1px solid #ddd; /* Líneas entre campos */
+    padding: 5px;
+    text-align: center;
+  }
+  
+  
+.editar, .eliminar{
+    background-color: #5cb85c;
+  text-decoration: none;
+  border-style: none;
+  border-radius: 10px;
+  color: white;
+  width: 90px;
+  height: 35px;
+  text-align: center;
+  line-height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: -30px;
+  margin-top: 40px;
+}
+.eliminar{
+    background-color: rgb(180, 47, 47);
+    margin-bottom: -2px;
+}

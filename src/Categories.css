@@ -22,8 +22,9 @@ button{
     color: white;
     width: 90px;
     margin-bottom: 2px;
+    cursor: pointer;
 }
  .boton{
     background-color: #E4B1F0;
-
+    cursor: pointer;
 }

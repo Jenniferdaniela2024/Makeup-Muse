@@ -1,22 +1,41 @@
-h2{
-    color: #E4B1F0;
-    margin-top: 20px;
-    text-align: center;
- 
-}
-.products{
-    border-style: solid;
-    width: 30%;
-    display: inline-block;
-    margin: 5px;
-    margin-left: 18px;
-   
-}
-.productos{
-    width: 150px;
-    margin-left: 45px;
+.productos-container {
+     display: flex;
+    flex-wrap: wrap; /* Permite que los productos se ajusten cuando no haya espacio */
+    gap: 50px; /* Espacio entre productos */
+    justify-content: flex-start; /* Alinea los productos a la izquierda */
+    padding: 20px; /* Añade un poco de espacio alrededor del contenedor */
+    width: 100%; /*  usar 100% si quieres que ocupe todo el espacio */
+    box-sizing: border-box;
+    margin-top: 0%;
+    margin-left: 10%;
 }
 
-.titulo_destacado{
+.producto-card {
+    border: 1px solid #ddd; /* Bordes para cada producto */
+    padding: 15px;
+    width: 200px; /* Ancho fijo para cada producto */
+    text-align: center; /* Centra el contenido dentro del card */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea el contenido al centro */
+    box-sizing: border-box;
+}
+
+.producto-card img {
+    width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    max-height: 150px; /* Limita el alto de la imagen para que no se haga demasiado grande */
+}
+
+.img-destacado:hover{
+    transform: scale(1.4);
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.1em;
+}
+.Categoria{
     color: #E4B1F0;
 }

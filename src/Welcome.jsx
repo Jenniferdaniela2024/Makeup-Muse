@@ -15,11 +15,11 @@ const Welcome_Content = () => {
         <div className="text-section">
           <h2>Tu tienda de confianza de maquillaje.  🛒</h2>
           <br/><br/><br /><br />
-          <h4>Comodidad</h4>
-          <p>Compra desde cualquier lugar</p>
-          <h4>Ofertas</h4>
-          <p>Promociones y precios competitivos. </p>
-          <h4>Variedades de Productos</h4>
+          <h4 className="tittles-welcome"> Comodidad</h4><br/>
+          <p>Compra desde cualquier lugar </p>
+          <h4 className="tittles-welcome">Ofertas</h4><br/>
+          <p>Promociones y precios competitivos  </p>
+          <h4 className="tittles-welcome">Variedades de Productos</h4><br/>
           <p>Desde productos básicos a mas especializados </p>
         </div>
       </main>

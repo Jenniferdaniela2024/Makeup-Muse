@@ -1,33 +1,33 @@
-.imagen{
-    width: 110%;
+ .imagen{
     margin-top: 11%;
-    margin-left: -80px;
-    
+    width: 110%;
+    margin-left: -35px;
 }
 
+
  .slider-box {
-    width: 920px;
+    width: 900px;
     margin: 0px auto 0px;
-    margin-right: -8%;
+    margin-right: 20%;
 }
 
 
 .slider-box ul{
     display: flex;
     height:100%;
-    width: 310%;
+    width: 310%; /*Para controlar el tamaño de la imagen entre más mayor el número se ve toda completa de largo y ancho*/
     animation: slide 20s infinite alternate ease-in-out;
 }
 
 
 .slider-box li{
-    width: 100%;
+    width: 120%;
     list-style: none;
     position: relative;
 }
 
 .slider-box img{
-    width: 100%;
+    width: 104%; /*Para el tamaño de las imagenes dentro del contenedor */
 } 
 
  @keyframes slide {
@@ -40,4 +40,4 @@
     50% { margin-left: -200%;}
     70% { margin-left: -200%;}
     
-}  
+}   

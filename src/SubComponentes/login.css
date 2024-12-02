@@ -1,0 +1,53 @@
+.login {
+    display: flex;
+    padding-left: -11px;
+    align-items: center;
+    width: 60%; /* Ajusta el ancho */
+    
+    margin-left: 18px;
+}
+  
+.tittle-login{
+    text-align: left;
+    color: black;
+}
+
+.button-login{
+    background-color: #aa56bd;
+    width: 400px;
+    margin-left: -1px;
+}
+.button-login:hover{
+    background-color: #E4B1F0;
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+}
+.input-login{
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    padding: 10px; 
+    font-size: 16px; /* Aumenta el tamaño del texto */
+    border: 2px solid #ccc; 
+    border-radius: 5px;
+    box-sizing: border-box; /* Incluye padding y border en el cálculo del tamaño */
+}
+.input-login:focus {
+    border-color: #007bff; /* Cambia el color del borde al enfocarse */
+    outline: none; /* Quita el estilo predeterminado del navegador */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Añade un resplandor suave */
+  }
+   
+  .container-login {
+    display: flex; /* Activa el diseño de flexbox */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+  }
+  .img-login{
+    width: 70%;
+    height: 500px;
+    margin-top: 60px;
+  }

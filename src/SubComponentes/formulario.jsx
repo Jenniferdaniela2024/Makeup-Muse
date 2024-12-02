@@ -1,7 +1,7 @@
 import React from "react";
 import './formulario.css';
-import Navbar from "../Nav";  // Asegúrate de que la ruta de importación sea correcta
-import Footer from "../Footer"; // Asegúrate de que la ruta de Footer sea correcta
+import Navbar from "../Nav";  
+import Footer from "../Footer"; 
 
 const Formulario = () => {
     const EscucharClick = (event) => {
